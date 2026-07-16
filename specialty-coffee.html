@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specialty Coffee Riyadh | قهوة مختصة الرياض | Rimthan Coffee</title>
+    <meta name="description" content="Learn about our premium single-origin beans, light roasts, and precise manual brewing methods like V60 and Chemex at Rimthan Coffee in Riyadh.">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Breadcrumb & FAQ Schema for Specialty Coffee Authority -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://YOUR_GITHUB_USERNAME.github.io/rimthan-coffee/specialty-coffee.html#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "الرئيسية",
+              "item": "https://YOUR_GITHUB_USERNAME.github.io/rimthan-coffee/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "القهوة المختصة",
+              "item": "https://YOUR_GITHUB_USERNAME.github.io/rimthan-coffee/specialty-coffee.html"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header>
+        <a href="index.html" class="logo">Rimthan Coffee | قهوة رمثان</a>
+        <nav>
+            <a href="index.html">الرئيسية</a>
+            <a href="menu.html">المنيو</a>
+            <a href="specialty-coffee.html" style="color: var(--accent);">قهوة مختصة</a>
+            <a href="breakfast.html">الفطور</a>
+            <a href="coworking.html">مساحة عمل</a>
+            <a href="faq.html">الأسئلة الشائعة</a>
+            <button id="themeBtn" class="theme-toggle" onclick="toggleTheme()">Dark Mode</button>
+        </nav>
+    </header>
+
+    <!-- Hero Header -->
+    <section class="hero" style="background: linear-gradient(rgba(74, 59, 50, 0.9), rgba(74, 59, 50, 0.9)), url('images/v60-riyadh.webp') no-repeat center center/cover;">
+        <h1>Specialty Coffee Riyadh | القهوة المختصة</h1>
+        <p>رحلة البن من المزرعة إلى الكوب. نركز على أدق تفاصيل التحضير لنقدم لك أفضل كوب قهوة مختصة في الرياض.</p>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container">
+        
+        <!-- Our Beans & Philosophy -->
+        <section style="margin-bottom: 60px;">
+            <h2 class="section-title" style="text-align: right;">مصادر حبوب البن وفلسفتنا</h2>
+            <div class="grid">
+                <div class="card" style="grid-column: span 2; text-align: right;">
+                    <h3>سلالات البن الفاخرة</h3>
+                    <p>في <strong>قهوة رمثان</strong>، نختار محاصيلنا بعناية فائقة من مزارع مستدامة حول العالم (إثيوبيا، كولومبيا، السلفادور). نهتم بالارتفاعات الشاهقة وطرق المعالجة الطبيعية والمغسولة لإبراز الإيحاءات الطبيعية الفريدة لكل محصول دون استخدام أي نكهات صناعية.</p>
+                </div>
+                <div class="card" style="text-align: right;">
+                    <h3>درجات التحميص</h3>
+                    <p>نعتمد على تحميص خفيف إلى متوسط (Light-Medium Roast) للحفاظ على الخصائص الفاكهية والحمضية المتوازنة للبن المختص.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Brewing Guides (Topical Authority Signals) -->
+        <section style="margin-bottom: 60px;">
+            <h2 class="section-title">أدلة تحضير القهوة التفاعلية | Brewing Ratios</h2>
+            <p style="text-align: center; margin-bottom: 30px; color: #777;">سر الكوب المثالي يكمن في دقة النسب (Ratios) والحرارة والتوقيت.</p>
+            
+            <div class="grid">
+                <!-- V60 Card -->
+                <div class="card">
+                    <h3>ترشيح V60 Drip</h3>
+                    <p style="color: var(--accent); font-weight: bold; margin: 10px 0;">النسبة الذهبية: 1:15</p>
+                    <p style="font-size: 0.9rem; margin-bottom: 15px;">20 جرام قهوة مطحونة طحنة متوسطة مقابل 300 مل من الماء بدرجة حرارة 92 مئوية خلال وقت استخلاص 3 دقائق.</p>
+                    <ul style="text-align: right; font-size: 0.85rem; padding-right: 20px; color: #666;">
+                        <li>إيحاءات حمضية وواضحة</li>
+                        <li>قوام خفيف ونظيف جداً</li>
+                    </ul>
+                </div>
+
+                <!-- Espresso Card -->
+                <div class="card">
+                    <h3>الإسبريسو Espresso</h3>
+                    <p style="color: var(--accent); font-weight: bold; margin: 10px 0;">النسبة الذهبية: 1:2</p>
+                    <p style="font-size: 0.9rem; margin-bottom: 15px;">18 جرام قهوة مطحونة طحنة ناعمة جداً للحصول على 36 جرام إسبريسو غني مع كريمة ذهبية متماسكة خلال 25-30 ثانية.</p>
+                    <ul style="text-align: right; font-size: 0.85rem; padding-right: 20px; color: #666;">
+                        <li>قوام ثقيل ومكثف</li>
+                        <li>إيحاءات الشوكولاتة والمكسرات</li>
+                    </ul>
+                </div>
+
+                <!-- Cold Brew Card -->
+                <div class="card">
+                    <h3>التقطير البارد Cold Brew</h3>
+                    <p style="color: var(--accent); font-weight: bold; margin: 10px 0;">النسبة الذهبية: 1:10</p>
+                    <p style="font-size: 0.9rem; margin-bottom: 15px;">نقع البن المطحون طحنة خشنة في ماء بارد لمدة تتراوح بين 12 إلى 16 ساعة لتقليل الحموضة والحصول على حلاوة طبيعية فائقة.</p>
+                    <ul style="text-align: right; font-size: 0.85rem; padding-right: 20px; color: #666;">
+                        <li>خالٍ من المرارة تقريباً</li>
+                        <li>منعش وقليل الحموضة</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer style="background-color: var(--primary-dark); color: #FAF6F0; padding: 40px 20px; text-align: center;">
+        <p>&copy; 2026 Rimthan Coffee | قهوة رمثان - الرياض، حي الحمراء. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
