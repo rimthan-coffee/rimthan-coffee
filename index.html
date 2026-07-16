@@ -1,110 +1,182 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="ar" dir="rtl" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rimthan + Coffee | قهوة رمثان - Riyadh Cafe</title>
-    <meta name="description" content="Visit Rimthan + Coffee | قهوة رمثان, Riyadh’s premier specialty coffee destination. Experience expertly brewed coffee, warm hospitality, and a welcoming community space in the heart of Riyadh. Find our hours, location, and menu here.">
-    
-    <!-- Local Business Schema for Google -->
+    <title>Best Specialty Coffee Shop in Riyadh | Rimthan Coffee | قهوة رمثان</title>
+    <meta name="description" content="Visit Rimthan + Coffee | قهوة رمثان, Riyadh’s premier specialty coffee destination in Al Hamra. Experience expertly brewed coffee, fresh breakfast, and a quiet work-friendly atmosphere.">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Schema.org Rich Structured Data for Local SEO -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "CafeOrCoffeeShop",
-      "name": "Rimthan + Coffee | قهوة رمثان",
-      "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93",
-      "@id": "",
-      "url": "https://YOUR_GITHUB_USERNAME.github.io/rimthan-coffee",
-      "telephone": "+966XXXXXXXXX", 
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Enter Your Street Address",
-        "addressLocality": "Riyadh",
-        "addressRegion": "Riyadh Province",
-        "postalCode": "XXXXX",
-        "addressCountry": "SA"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 24.7136, 
-        "longitude": 46.6753
-      },
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday",
-          "Sunday"
-        ],
-        "opens": "06:00",
-        "closes": "23:59"
-      }
+      "@graph": [
+        {
+          "@type": "CafeOrCoffeeShop",
+          "@id": "https://rimthan-coffee.github.io/rimthan-coffee/#cafe",
+          "name": "Rimthan + Coffee | قهوة رمثان",
+          "url": "https://rimthan-coffee.github.io/rimthan-coffee/",
+          "telephone": "+966500000000",
+          "priceRange": "$$",
+          "servesCuisine": ["Specialty Coffee", "Breakfast", "Desserts"],
+          "image": "https://rimthan-coffee.github.io/rimthan-coffee/images/rimthan-coffee-shop.webp",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "King Abdullah Road, Al Hamra District",
+            "addressLocality": "Riyadh",
+            "addressRegion": "Riyadh Province",
+            "postalCode": "13216",
+            "addressCountry": "SA"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 24.7556,
+            "longitude": 46.7589
+          },
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Sunday"],
+              "opens": "06:00",
+              "closes": "23:59"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Friday", "Saturday"],
+              "opens": "06:00",
+              "closes": "02:00"
+            }
+          ],
+          "sameAs": [
+            "https://www.instagram.com/rimthan",
+            "https://twitter.com/rimthan"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://rimthan-coffee.github.io/rimthan-coffee/#website",
+          "url": "https://rimthan-coffee.github.io/rimthan-coffee/",
+          "name": "Rimthan Coffee",
+          "publisher": {
+            "@id": "https://rimthan-coffee.github.io/rimthan-coffee/#cafe"
+          }
+        }
+      ]
     }
     </script>
-
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #FAF6F0;
-            color: #332C27;
-            text-align: center;
-        }
-        header {
-            background-color: #4A3B32;
-            color: #FAF6F0;
-            padding: 40px 20px;
-        }
-        h1 { margin: 0; font-size: 2.5rem; }
-        .content {
-            max-width: 600px;
-            margin: 40px auto;
-            padding: 20px;
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-        }
-        .btn {
-            display: inline-block;
-            background-color: #8C6A5C;
-            color: white;
-            padding: 12px 24px;
-            text-decoration: none;
-            border-radius: 8px;
-            font-weight: bold;
-            margin-top: 20px;
-        }
-        .btn:hover { background-color: #4A3B32; }
-        footer { margin-top: 50px; padding: 20px; font-size: 0.9rem; color: #888; }
-    </style>
 </head>
 <body>
 
+    <!-- Header Navigation -->
     <header>
-        <h1>Rimthan + Coffee | قهوة رمثان</h1>
-        <p>Specialty Coffee in Riyadh | قهوة مختصة في الرياض</p>
+        <a href="index.html" class="logo">Rimthan Coffee | قهوة رمثان</a>
+        <nav>
+            <a href="index.html">الرئيسية</a>
+            <a href="menu.html">المنيو</a>
+            <a href="specialty-coffee.html">قهوة مختصة</a>
+            <a href="breakfast.html">الفطور</a>
+            <a href="coworking.html">مساحة عمل</a>
+            <a href="faq.html">الأسئلة الشائعة</a>
+            <button class="theme-toggle" id="themeBtn" onclick="toggleTheme()">Dark Mode</button>
+        </nav>
     </header>
 
-    <div class="content">
-        <h2>Welcome to Rimthan + Coffee</h2>
-        <p>We serve premium beans, crafted with passion. Come enjoy the perfect brew in a relaxing, local atmosphere.</p>
-        
-        <hr style="border: 0; border-top: 1px solid #eee; margin: 20px 0;">
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Best Specialty Coffee Shop in Riyadh | Rimthan Coffee</h1>
+        <p>قهوة رمثان في حي الحمراء، الرياض. نقدم تجربة قهوة مختصة فريدة، وجبات فطور طازجة، وحلويات مميزة وسط بيئة عمل هادئة ومريحة.</p>
+        <a href="#visit" class="btn">احصل على الاتجاهات | Get Directions</a>
+    </section>
 
-        <h3>📍 Our Location</h3>
-        <p>Riyadh, Saudi Arabia</p>
+    <!-- Main Content Container -->
+    <div class="container">
         
-        <a href="https://maps.google.com" target="_blank" class="btn">Open on Google Maps</a>
+        <!-- About Section -->
+        <section id="about" style="margin-bottom: 60px;">
+            <h2 class="section-title">Premium Coffee & Fresh Breakfast</h2>
+            <div class="grid">
+                <div class="card" style="grid-column: span 2;">
+                    <h3>قصتنا | Our Story</h3>
+                    <p>أسسنا <strong>قهوة رمثان (Rimthan Coffee)</strong> لتكون الوجهة الأساسية لعشاق القهوة المختصة في الرياض، وتحديداً في حي الحمراء على طريق الملك عبدالله. نجمع بين حبوب البن المحمصة بعناية، المهارة العالية لباريستا محترفين، وتصميم مريح يجعل من المقهى مكاناً رائعاً للعمل، الدراسة، أو الاسترخاء.</p>
+                </div>
+                <div class="card">
+                    <h3>الموقع الاستراتيجي</h3>
+                    <p>نقع بالقرب من غرناطة مول في موقع مميز يسهل الوصول إليه من مختلف أحياء شمال وشرق الرياض.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dynamic Offerings Section -->
+        <section id="offerings" style="margin-bottom: 60px;">
+            <h2 class="section-title">Our Specialty Menu</h2>
+            <div class="grid">
+                <!-- Specialty Coffee -->
+                <div class="card">
+                    <img src="images/v60-riyadh.webp" alt="V60 Filter Coffee Riyadh Rimthan Coffee" style="width:100%; border-radius:8px; margin-bottom:15px; height:180px; object-fit:cover;">
+                    <h3>Specialty Coffee</h3>
+                    <p>محاصيل فاخرة تم إعدادها بأحدث الأدوات. استمتع بمشروب V60 البارد أو الحار، الإسبريسو، والـ Flat White المحضر بحليب طازج.</p>
+                    <a href="specialty-coffee.html" class="btn" style="margin-top:15px;">اكتشف القهوة</a>
+                </div>
+
+                <!-- Breakfast -->
+                <div class="card">
+                    <img src="images/best-breakfast-riyadh.webp" alt="Best Breakfast Riyadh Cafe Rimthan" style="width:100%; border-radius:8px; margin-bottom:15px; height:180px; object-fit:cover;">
+                    <h3>Fresh Breakfast</h3>
+                    <p>ابدأ يومك بأطباق الفطور الطازجة المتنوعة التي تُحضر يومياً في مطبخنا لإرضاء جميع الأذواق.</p>
+                    <a href="breakfast.html" class="btn" style="margin-top:15px;">منيو الفطور</a>
+                </div>
+
+                <!-- Desserts / Work Friendly -->
+                <div class="card">
+                    <img src="images/spanish-latte-riyadh.webp" alt="Spanish Latte and Desserts Riyadh Cafe" style="width:100%; border-radius:8px; margin-bottom:15px; height:180px; object-fit:cover;">
+                    <h3>Desserts & Study Space</h3>
+                    <p>مساحة عمل هادئة ومجهزة بإنترنت سريع (WiFi) مع قائمة حلويات مميزة ترافق قهوتك المفضلة طوال اليوم.</p>
+                    <a href="coworking.html" class="btn" style="margin-top:15px;">استكشف المساحة</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us & Local Citations -->
+        <section id="why-us" style="margin-bottom: 60px;">
+            <h2 class="section-title">Best Coffee in Riyadh | Why Choose Rimthan</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Coffee Near Me</h3>
+                    <p>إذا كنت تبحث عن مقهى هادئ أو أفضل قهوة في حي الحمراء بالرياض، فإن قهوة رمثان خيارك الأمثل بجلساتها المريحة ومواقفها الواسعة.</p>
+                </div>
+                <div class="card">
+                    <h3>Topical Authority</h3>
+                    <p>نعمل في Rimthan Coffee بمعايير عالمية للمحافظة على جودة حبوب البن ونسب الاستخلاص لتقديم كوب قهوة مثالي في كل زيارة.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Visit & Maps Integration -->
+        <section id="visit" style="margin-bottom: 60px; text-align: center;">
+            <h2 class="section-title">Visit Rimthan Coffee</h2>
+            <p style="margin-bottom: 20px;">طريق الملك عبدالله، حي الحمراء، الرياض، المملكة العربية السعودية</p>
+            
+            <!-- Standard Placeholder for Google Map Embed -->
+            <div style="width: 100%; max-width: 800px; margin: 0 auto 30px auto; height: 350px; background-color: #E6DFD5; border-radius: 12px; display: flex; align-items: center; justify-content: center; border: 1px solid var(--border-color);">
+                <p style="color: #4A3B32; font-weight: bold;">[تنزيل خريطة جوجل التفاعلية هنا | Embedded Google Map goes here]</p>
+            </div>
+
+            <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+                <a href="https://maps.google.com" target="_blank" class="btn">الاتجاهات عبر الخريطة</a>
+                <a href="https://wa.me/966500000000" target="_blank" class="btn" style="background-color: #25D366;">تواصل واتساب</a>
+            </div>
+        </section>
+
     </div>
 
-    <footer>
-        &copy; 2026 Rimthan + Coffee. All Rights Reserved.
+    <!-- Footer -->
+    <footer style="background-color: var(--primary-dark); color: #FAF6F0; padding: 40px 20px; text-align: center;">
+        <p>&copy; 2026 Rimthan Coffee | قهوة رمثان - الرياض، حي الحمراء. جميع الحقوق محفوظة.</p>
+        <p style="font-size:0.8rem; margin-top:10px; color: var(--accent);">تم التطوير لأقصى درجات الأداء وتوافق الـ Local SEO</p>
     </footer>
 
+    <!-- Vanilla Javascript (Theme & Interaction) -->
+    <script src="js/script.js"></script>
 </body>
 </html>
