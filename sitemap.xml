@@ -49,7 +49,7 @@
     <priority>0.5</priority>
   </url>
 
-  <!-- Neighborhood Funnel: Ishbiliyah -->
+  <!-- Localized Neighborhood Funnels -->
   <url>
     <loc>https://rimthan-coffee.github.io/rimthan-coffee/neighborhoods/ishbiliyah.html</loc>
     <lastmod>2026-07-19</lastmod>
@@ -57,9 +57,57 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- Neighborhood Funnel: Al Andalus -->
   <url>
     <loc>https://rimthan-coffee.github.io/rimthan-coffee/neighborhoods/al-andalus.html</loc>
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://rimthan-coffee.github.io/rimthan-coffee/neighborhoods/al-khaleej.html</loc>
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://rimthan-coffee.github.io/rimthan-coffee/neighborhoods/al-qudus.html</loc>
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://rimthan-coffee.github.io/rimthan-coffee/neighborhoods/ghirnatah.html</loc>
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://rimthan-coffee.github.io/rimthan-coffee/neighborhoods/al-yarmuk.html</loc>
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://rimthan-coffee.github.io/rimthan-coffee/neighborhoods/an-nahdah.html</loc>
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://rimthan-coffee.github.io/rimthan-coffee/neighborhoods/nasim.html</loc>
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://rimthan-coffee.github.io/rimthan-coffee/neighborhoods/ar-rayyan.html</loc>
     <lastmod>2026-07-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
