@@ -57,4 +57,12 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- Neighborhood Funnel: Al Andalus -->
+  <url>
+    <loc>https://rimthan-coffee.github.io/rimthan-coffee/neighborhoods/al-andalus.html</loc>
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
