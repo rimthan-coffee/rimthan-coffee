@@ -1,12 +1,5 @@
-# Host: Rimthan Coffee
-# SEO Project: Rimthan Coffee 2026
-
 User-agent: *
 Allow: /
 
-# Exclude raw asset folders to optimize crawl budget
-Disallow: /css/
-Disallow: /js/
-
-# Point search crawlers directly to your sitemap
+# Sitemap Location
 Sitemap: https://rimthan-coffee.github.io/rimthan-coffee/sitemap.xml
